@@ -62,7 +62,7 @@ Player chkwin(Plstt* poss)
             return O;
         }
     } else if (cnd2 || cnd5 || cnd8) {
-        switch (poss[5].player) {
+        switch (poss[4].player) {
         case X:
             return X;
         case O:
